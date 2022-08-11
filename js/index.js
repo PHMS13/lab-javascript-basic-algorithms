@@ -5,7 +5,7 @@ const hacker1 = "Antonio";
 
 console.log('Enter navegator name');
 
-const hacker2 = "leando";
+const hacker2 = "leandro";
 
 console.log("The driver's name is",hacker1);
 
@@ -43,11 +43,11 @@ const hacker3 = hacker1.toUpperCase().split("").join(" ")
 
  
 
- if(hacker1===0){
+ if (hacker1 < hacker2){
 
     console.log("The driver's name goes first.");
 
- } else if (hacker2===0){
+ } else if (hacker1 > hacker2){
 
     console.log("Yo, the navigator name goes first definitely.")
 
